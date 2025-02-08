@@ -1,0 +1,76 @@
+.image-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .upload-section {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .upload-section:hover {
+    border-color: #4CAF50;
+  }
+  
+  .results-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .image-preview {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-preview img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .classification-results {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .classification-results h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin: 8px 0;
+    background: #f8f9fa;
+    border-radius: 6px;
+    transition: transform 0.2s ease;
+  }
+  
+  .result-item:hover {
+    transform: translateX(5px);
+  }
+  
+  .class-name {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .confidence {
+    color: #4CAF50;
+    font-weight: bold;
+  }

@@ -1,0 +1,66 @@
+.waste-instructions {
+    background: var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .eco-badge {
+    font-size: 1.4em;
+    margin-left: 0.5rem;
+  }
+  
+  .instruction-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .instruction-card {
+    background: var(--background-color);
+    padding: 1.2rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .instruction-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .icon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+  }
+  
+  .recyclable .icon { color: #4CAF50; }
+  .compostable .icon { color: #8BC34A; }
+  .decomposition .icon { color: #FFC107; }
+  .disposal .icon { color: #F44336; }
+  .reuse .icon { color: #2196F3; }
+  
+  .instruction-card h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-color);
+  }
+  
+  .instruction-card p {
+    margin: 0;
+    color: var(--text-color);
+    font-weight: 500;
+  }
+  
+  .instruction-card ul {
+    padding-left: 1.2rem;
+    margin: 0.5rem 0 0 0;
+  }
+  
+  .instruction-card li {
+    color: var(--text-color);
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+  }

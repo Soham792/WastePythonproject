@@ -1,0 +1,98 @@
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.date, .time {
+  margin: 0;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.history-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.history-list {
+  display: grid;
+  gap: 20px;
+}
+
+.history-item {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: var(--secondary-color);
+  border-radius: 8px;
+  position: relative;
+}
+
+.image-container img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.details {
+  flex: 1;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.date, .time {
+  margin: 0;
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+.delete-btn {
+  background: #ff4444;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #cc0000;
+}
+
+.predictions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.prediction {
+  background: var(--background-color);
+  padding: 8px 15px;
+  border-radius: 20px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.class-name {
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.confidence {
+  color: #ffffff;
+  font-weight: bold;
+}
